@@ -4,7 +4,7 @@
 
 ## Overview
 
-On Day 9, I moved beyond simply training machine-learning models and focused on evaluating them honestly, diagnosing their weaknesses, and improving them systematically. I applied these ideas to a house-price regression problem using Ridge Regression, Decision Trees, Random Forest, and XGBoost.
+Today, I moved beyond simply training machine-learning models and focused on evaluating them honestly, diagnosing their weaknesses, and improving them systematically. I applied these ideas to a house-price regression problem using Ridge Regression, Decision Trees, Random Forest, and XGBoost.
 
 The main goal was to build a model-selection workflow that can generalize to unseen data instead of only performing well on its training set.
 
