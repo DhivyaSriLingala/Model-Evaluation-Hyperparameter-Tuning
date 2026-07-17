@@ -1,4 +1,4 @@
-# Day 9 — Model Evaluation & Hyperparameter Tuning
+# Day 9 - Model Evaluation & Hyperparameter Tuning
 
 ![Day 9: Model Evaluation and Hyperparameter Tuning](Day-9.png)
 
@@ -10,10 +10,10 @@ The main goal was to build a model-selection workflow that can generalize to uns
 
 ## Project Files
 
-- `Model_Evaluation_Hyperparameter_Tuning.ipynb` — complete analysis and code
-- `House_Price_prediction.csv` — house-price dataset
-- `Day-9.png` — project image
-- `README.md` — project documentation and learning summary
+- `Model_Evaluation_Hyperparameter_Tuning.ipynb` - complete analysis and code
+- `House_Price_prediction.csv` - house-price dataset
+- `Day-9.png` - project image
+- `README.md` - project documentation and learning summary
 
 ## Tools and Libraries
 
