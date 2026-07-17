@@ -154,25 +154,25 @@ Grid search is useful for a small number of discrete choices because it evaluate
 
 ## Knowledge Check
 
-### 1. A model has a training R² of 0.97 and a test R² of 0.65. What is happening, and how can it be improved?
+1. A model has a training R² of 0.97 and a test R² of 0.65. What is happening, and how can it be improved?
+2. Why should the test set be evaluated only once at the end?
+3. When should RandomizedSearchCV be preferred over GridSearchCV?
+4. What do learning curves look like when a model is underfitting?
+5. What is the difference between a parameter and a hyperparameter?
 
-**Answer:** The large gap indicates overfitting, or high variance. Possible improvements include reducing model complexity, adding regularization, collecting more training data, pruning a tree, or using cross-validation to choose safer hyperparameters.
 
-### 2. Why should the test set be evaluated only once at the end?
+<details>
+<summary><strong>Answer key</strong></summary>
 
-**Answer:** The test set represents completely unseen data. If its results influence model selection or tuning, information from the test set leaks into the development process and the final score is no longer an unbiased estimate of real-world performance.
+   
+1. The large gap indicates overfitting, or high variance. Possible improvements include reducing model complexity, adding regularization, collecting more training data, pruning a tree, or using cross-validation to choose safer hyperparameters.
+2. The test set represents completely unseen data. If its results influence model selection or tuning, information from the test set leaks into the development process and the final score is no longer an unbiased estimate of real-world performance.
+3. RandomizedSearchCV is preferable when there are many hyperparameters, broad ranges, or continuous distributions. It explores a larger and more diverse search space with a fixed number of trials, whereas an exhaustive grid can become computationally expensive.
+4. The training and validation scores are both low and usually close together, even as more training examples are added. This suggests that the model needs better features, less regularization, or greater complexity.
+5. A parameter is learned by the model from the training data, such as a coefficient or tree split. A hyperparameter is selected before training, such as `max_depth`, `learning_rate`, or `n_estimators`, and controls the model or training process.
 
-### 3. When should RandomizedSearchCV be preferred over GridSearchCV?
+</details>
 
-**Answer:** RandomizedSearchCV is preferable when there are many hyperparameters, broad ranges, or continuous distributions. It explores a larger and more diverse search space with a fixed number of trials, whereas an exhaustive grid can become computationally expensive.
-
-### 4. What do learning curves look like when a model is underfitting?
-
-**Answer:** The training and validation scores are both low and usually close together, even as more training examples are added. This suggests that the model needs better features, less regularization, or greater complexity.
-
-### 5. What is the difference between a parameter and a hyperparameter?
-
-**Answer:** A parameter is learned by the model from the training data, such as a coefficient or tree split. A hyperparameter is selected before training, such as `max_depth`, `learning_rate`, or `n_estimators`, and controls the model or training process.
 
 ## Key Takeaway
 
