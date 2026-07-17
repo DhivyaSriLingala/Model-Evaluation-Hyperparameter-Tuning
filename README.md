@@ -1,4 +1,4 @@
-# Day 9 - Model Evaluation & Hyperparameter Tuning
+# Model Evaluation & Hyperparameter Tuning
 
 ![Day 9: Model Evaluation and Hyperparameter Tuning](Day-9.png)
 
