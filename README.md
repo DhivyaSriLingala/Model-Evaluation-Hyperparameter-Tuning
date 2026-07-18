@@ -164,6 +164,7 @@ Grid search is useful for a small number of discrete choices because it evaluate
 <details>
 <summary><strong>Answer key</strong></summary>
 
+
    
 1. The large gap indicates overfitting, or high variance. Possible improvements include reducing model complexity, adding regularization, collecting more training data, pruning a tree, or using cross-validation to choose safer hyperparameters.
 2. The test set represents completely unseen data. If its results influence model selection or tuning, information from the test set leaks into the development process and the final score is no longer an unbiased estimate of real-world performance.
